@@ -27,6 +27,9 @@ jobs:
           template_dir: '.github/PULL_REQUEST_TEMPLATE/'
           mapping: 'feature=feature/,feat/;bugfix=fix/,bugfix/'
           default: 'feature'
+      # Runs a single command using the runners shell
+      - name: job completed.
+        run: echo Hello, world!          
           
   # This workflow contains a single job called "build"
   build:
