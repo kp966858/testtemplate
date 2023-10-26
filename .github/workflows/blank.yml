@@ -24,7 +24,7 @@ jobs:
       #- uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          template_dir: '.github/PULL_REQUEST_TEMPLATE/'
+          template_dir: '.github/'
           mapping: 'feature=feature/,feat/;bugfix=fix/,bugfix/'
           default: 'feature'
       # Runs a single command using the runners shell
